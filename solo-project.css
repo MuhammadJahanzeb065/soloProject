@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background:linear-gradient(skyblue,rgba(255, 255, 0, 0.742));
+    color: white;
+    text-shadow: 0 0 5px black;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.avatar{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 500px;
+}
+.text{
+    margin: 10px auto;
+    background-color: rgb(36, 150, 211);
+    padding: 10px;
+    border-radius: 5px ;
+}
+#main1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 50px auto;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50% ;
+}
+
+#board{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: skyblue;
+    
+}
+.myself{
+    width: 250px;
+    height: 300px;
+    border-radius: 10%;
+    line-height: 17px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    text-align: justify;
+
+}
